@@ -43,6 +43,8 @@ namespace COMP123_S2017_FinalExam_StudentID
             set
             {
                 this._score = value;
+                ScoreTextBox.Text = Convert.ToString(this._score);
+                FinalScoreTextBox.Text = Convert.ToString(this._score);
                 
             }
         }
@@ -66,6 +68,7 @@ namespace COMP123_S2017_FinalExam_StudentID
             set
             {
                 this._time = value;
+                TimeTextBox.Text = Convert.ToString(_time);
             }
         }
         public TextBox TimeTextBox

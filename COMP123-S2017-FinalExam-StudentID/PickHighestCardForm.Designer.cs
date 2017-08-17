@@ -1,5 +1,7 @@
 ﻿namespace COMP123_S2017_FinalExam_StudentID
 {
+    //PRIVATE PROPERTIES--------
+    
     partial class PickHighestCardForm
     {
         /// <summary>
@@ -334,5 +336,6 @@
         private System.Windows.Forms.TextBox FinalScoreTextBox;
         private System.Windows.Forms.Label FinalScoreLabel;
     }
+  
 }
 

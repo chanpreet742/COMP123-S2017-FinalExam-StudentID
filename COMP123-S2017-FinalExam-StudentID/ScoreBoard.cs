@@ -4,7 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/*
+ * Name: Chanpreet Mudhar
+ * Date: 17th August, 2017
+ * StudentID: 300932732
+ * Description: This is the ScoreBoard class.
+ * Modified score and time properties.
+ * Version: 0.3
+ */
 namespace COMP123_S2017_FinalExam_StudentID
 {/// <summary>
 /// This class is called ScoreBoard.
@@ -81,6 +88,18 @@ namespace COMP123_S2017_FinalExam_StudentID
             {
                 this._timeTextBox=value;
             }
+            
+        }
+       /// <summary>
+       /// This is the public method called UpdateTime.
+       /// It converts the time property to integer and subtracts 1 from it.
+       /// </summary>
+        public void UpdateTime()
+        {
+            Time = Convert.ToInt32(Time);
+            Time = Time - 1;
+            TimeTextBox.Text = Convert.ToString(Time);
+
         }
 
     }

@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+ * Name: Chanpreet Mudhar
+ * Date: 17th August, 2017
+ * StudentID: 300932732
+ * Description: This is the main program of this project.
+ * Changed the Application.Run method
+ * Version: 0.2
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
@@ -24,7 +25,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PickHighestCardForm());
+            Application.Run(new SplashForm());
         }
     }
 }

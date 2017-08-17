@@ -26,6 +26,15 @@ namespace COMP123_S2017_FinalExam_StudentID
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new SplashForm());
+            SplashForm form2 = new SplashForm();
+            PickHighestCardForm form1 = new PickHighestCardForm();
+            form2.Hide();
+            Application.Run(form1);
+            while (true)
+            {
+                if (form1.Visible == false)
+                    form2.Show();
+            }
         }
     }
 }

@@ -19,7 +19,6 @@ namespace COMP123_S2017_FinalExam_StudentID
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
         }
     }
 }

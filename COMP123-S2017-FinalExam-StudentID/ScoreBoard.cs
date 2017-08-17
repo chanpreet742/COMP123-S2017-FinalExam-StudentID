@@ -9,8 +9,8 @@ using System.Windows.Forms;
  * Date: 17th August, 2017
  * StudentID: 300932732
  * Description: This is the ScoreBoard class.
- * Modified score and time properties.
- * Version: 0.3
+ * Added method to the class.
+ * Version: 0.4
  */
 namespace COMP123_S2017_FinalExam_StudentID
 {/// <summary>

@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
+ * Name: Chanpreet Mudhar
+ * Date: 17th August, 2017
+ * StudentID: 300932732
+ * Description: This is the PickHighestCardForm class.
  * Version:
  */
 
